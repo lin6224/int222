@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html ang="en">
+
+<head>
+         <title> Nested Table </title>
+         <meta charset="UTF-8"/>
+</head>
+
+<body>
+   <p>  Example of a nested table. </p>
+   <table border="6">
+      <caption align = "bottom" > Nested Table </caption>
+      <tr>
+         <th> <b> a11 </b> </th>
+         <th><b> a12 </b></th>
+         <th> <b> a13 </b> </th>
+      </tr>
+
+      <tr>
+         <td rowspan = "2"  valign = "bottom">  a21 </td>
+         <td align = "center">
+             <table border="1">
+                  <tr>
+                      <td> b11 </td>
+                      <td> b12 </td>
+                  </tr>
+                  <tr>
+                      <td> b21 </td>
+                      <td> b22 </td>
+                  </tr>
+             </table>
+         </td>
+         <td align="center"> a23 </td>
+      </tr>
+
+      <tr>
+         <td colspan = "2" align="center">a32</td>
+      </tr>
+
+</table>
+
+
+</body>
+
+</html>

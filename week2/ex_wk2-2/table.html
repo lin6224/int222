@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <title> Table </title>
+ </head>
+
+
+<body>
+
+&lt; good &gt;
+<table border="1" cellpadding="5" cellspacing="6" width = "50%" align = "center">
+<caption align = "top" > <font  size = "6"> Grades for Course INT222 </font></caption>
+
+<!-- Note: widths for th and td are conflicts  -->
+<tr>
+<th width = "30">Student ID</th>
+<th align = "center" >Student Name</th>
+<th>Student Email</th>
+<th>Grade</th>
+</tr>
+
+<tr align = "right">
+<!-- you can apply font in table cell -->
+<td width = "60" > <font size = 6> 328442 </font> </td>
+<td align = "center"> Wendy</td>
+
+<!-- try different effects with attribute nowrap, especially when table width is small -->
+<!-- Note: special character, @ = &#64; -->
+<td nowrap = "nowrap"> abc&#64;learn.senecac.on.ca </td>
+<td>  </td>
+</tr>
+
+<tr>
+<td >746222</td>
+<td>Jim</td>
+
+<!-- Note: when using colspan, you have fewer <td> -->
+<td valign = "bottom" colspan = "2">Deca&#64;learn.on.ca</td>
+<!-- <td>no</td> -->
+</tr>
+
+<tr>
+<td> 33433  </td>
+<td>  Henry </td>
+<!-- Note: using valign -->
+<td rowspan ="2" valign = "bottom"> regular&#64;learn.senecac.on.ca </td>
+<td rowspan = "2" valign = "baseline"> 89 </td>
+</tr>
+
+<tr>
+<td> 73332  </td>
+<td> Tom </td>
+
+<!-- Note: while rowspanning, no definition for the corresponding cell of next row -->
+<!-- <td> regular </td> -->
+<!-- <td> yes </td>  -->
+</tr>
+
+<tr>
+<td> 232223 </td>
+<td> Kate </td>
+<td> black&#64;learn.on.ca </td>
+<td> 93 </td>
+</tr>
+
+<tr>
+<td> 23322 </td>
+<td> Amy </td>
+<td> rer&#64;learn.seneca.on.ca </td>
+<td> 67 </td>
+</tr>
+
+
+</table>
+
+</body>
+</html>
